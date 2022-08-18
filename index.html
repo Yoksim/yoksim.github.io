@@ -23,9 +23,20 @@
       <th>Favourite Fruits <?php echo "hi" ?></th>
       <td>
         <?php $fruits = ["apple","mango","orange","papaya", "watermelon", "peach", "starfruit"]; ?>
-        <?php foreach (fruits as $fruit) { ?>
-        <?php echo " <input type='checkbox' name='fav_fruits[]' value='$fruit' id='fruit_$fruit'> ?>
-        <?php <label for='fruit_$fruit'>$fruit</label>"; } ?>
+        <input type='checkbox' name='fav_fruits[]' value='apple' id='fruit_apple'>
+        <label for='fruit_apple'>Apple</label>
+        <input type='checkbox' name='fav_fruits[]' value='mango' id='fruit_mango'>
+        <label for='fruit_mango'>Mango</label>
+        <input type='checkbox' name='fav_fruits[]' value='orange' id='fruit_orange'>
+        <label for='fruit_orange'>Orange</label>
+        <input type='checkbox' name='fav_fruits[]' value='papaya' id='fruit_papaya'>
+        <label for='fruit_papaya'>Papaya</label>
+        <input type='checkbox' name='fav_fruits[]' value='watermelon' id='fruit_wtm'>
+        <label for='fruit_wtm'>Watermelon</label>
+        <input type='checkbox' name='fav_fruits[]' value='peach' id='fruit_peach'>
+        <label for='fruit_peach'>Peach</label>
+        <input type='checkbox' name='fav_fruits[]' value='starfruit' id='fruit_stf'>
+        <label for='fruit_stf'>Starfruit</label>
       </td>
     </tr>
     <tr>

@@ -1,1 +1,42 @@
 <h1>Hello I'm super power very cool yes man ayooooo</h1>
+
+<form>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <td>
+        <input type="text" name="name">
+      </td>
+    </tr>
+    <tr>
+      <th>Relationship Status</th>
+      <td>
+        <input type="radio" name="relationship_status" value="single" id="rs_single"/>
+        <label for="rs_single">Single</label>
+        <input type="radio" name="relationship_status" value="taken" id="rs_taken"/>
+        <label for="rs_taken">Taken</label>
+        <input type="radio" name="relationship_status" value="aroace" id="rs_aroace"/>
+        <label for="rs_aroace">Aroace</label>
+      </td>
+    </tr>
+    <tr>
+      <th>Favourite Fruits</th>
+      <td>
+        <?php
+          $fruits = ["apple","mango","orange","papaya", "watermelon", "peach", "starfruit"];
+          foreach (fruits as $fruit) {
+            echo "
+              <input type='checkbox' name='fav_fruits[]' value='$fruit' id='fruit_$fruit'/>
+                <label for='fruit_$fruit'>$fruit</label>
+                ";
+        ?>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="submit" value="Submit">
+      </td>
+    </tr>
+  </table>
+</form>
+      

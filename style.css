@@ -6,12 +6,12 @@ body {
 }
 
 .main {
-  background-color: #000000;
+  background-color: black;
   opacity: 0.3
 }
 
 .profile {
   padding: 30px;
-  color: #ffffff;
+  color: white;
 }
 

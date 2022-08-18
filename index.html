@@ -20,12 +20,12 @@
       </td>
     </tr>
     <tr>
-      <th>Favourite Fruits</th>
+      <th>Favourite Fruits <?php echo "hi" ?></th>
       <td>
-        <? php $fruits = ["apple","mango","orange","papaya", "watermelon", "peach", "starfruit"]; ?>
-        <? php foreach (fruits as $fruit) { ?>
-        <? php echo " <input type='checkbox' name='fav_fruits[]' value='$fruit' id='fruit_$fruit'> ?>
-        <? php <label for='fruit_$fruit'>$fruit</label>"; } ?>
+        <?php $fruits = ["apple","mango","orange","papaya", "watermelon", "peach", "starfruit"]; ?>
+        <?php foreach (fruits as $fruit) { ?>
+        <?php echo " <input type='checkbox' name='fav_fruits[]' value='$fruit' id='fruit_$fruit'> ?>
+        <?php <label for='fruit_$fruit'>$fruit</label>"; } ?>
       </td>
     </tr>
     <tr>

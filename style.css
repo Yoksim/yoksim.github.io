@@ -2,7 +2,7 @@ body {
   padding: 50px;
   max-width: 1000px;
   margin: auto;
-  background-image: url("https://stringfixer.com/files/29008461.jpg")
+  background: url("https://stringfixer.com/files/29008461.jpg") no-repeat fixed center;
 }
 
 .main {

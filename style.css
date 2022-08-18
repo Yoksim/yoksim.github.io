@@ -5,11 +5,6 @@ body {
   background: black url("https://stringfixer.com/files/29008461.jpg") no-repeat fixed center;
 }
 
-.main {
-  background-color: black;
-  opacity: 0.3
-}
-
 .profile {
   padding: 30px;
   color: white;

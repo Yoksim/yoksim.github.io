@@ -3,10 +3,14 @@ body {
 /*   max-width: 1000px; */
   margin: auto;
   background: black url("https://stringfixer.com/files/29008461.jpg") no-repeat fixed center;
+  opacity: 0.8
 }
 
 .profile {
   padding: 30px;
   color: white;
+  max-width: 99%;
+  max-height: 99%;
+  margin: auto;
 }
 

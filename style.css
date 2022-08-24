@@ -41,7 +41,7 @@ body {
     background-image: url(logo.png);
     background-position: top center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: contain;
     background-attachment:local;
     padding: 43.855px 100px;
     color: transparent;

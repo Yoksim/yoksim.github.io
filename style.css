@@ -33,13 +33,17 @@ body {
     color: black;
 }
 
+.navbar .space {
+    padding: 0px 10px;
+}
+
 .navbar .logo {
     background-image: url(logo.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:local;
-    padding: 32px 100px;
+    padding: 43.855px 100px;
     color: transparent;
 }
 

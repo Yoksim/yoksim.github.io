@@ -34,14 +34,15 @@ body {
 }
 
 .navbar .space {
-    padding: 0px 10px;
+    padding: 0px 5px;
+    color: transparent;
 }
 
 .navbar .logo {
     background-image: url(logo.png);
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain ;
     background-attachment:local;
     padding: 43.855px 100px;
     color: transparent;

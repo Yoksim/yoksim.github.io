@@ -1,0 +1,10 @@
+table {
+    padding: 30px 100px;
+    margin: auto;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

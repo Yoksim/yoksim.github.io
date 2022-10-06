@@ -4,6 +4,7 @@
 
 body {
     background-color: #f6f6f6;
+    font-size: 16pt;
 }
 /* .bg_att{
     background-repeat: no-repeat;
@@ -38,7 +39,9 @@ body {
 }
 
 .row_center {
-    margin: 0px 10%;
+    margin: 0px 5%;
+    align-items: center;
+    justify-content: center;
 }
 
 .line_deco {
@@ -84,7 +87,7 @@ ul.timeline:before {
 }
 ul.timeline > li {
     margin: 50px 0;
-    padding-left: 80px;
+    padding-left: 60px;
 }
 ul.timeline > li:before {
     content: ' ';
@@ -97,4 +100,8 @@ ul.timeline > li:before {
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+
+ul.timeline ul {
+    padding: 0 5%;
 }
